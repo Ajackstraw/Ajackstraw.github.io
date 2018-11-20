@@ -6,18 +6,50 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="https://Ajackstraw.github.io">
-  <title>稻草人的博客</title>
+  <title>快速搭建个人博客（Hexo+github） | 稻草人的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Android开发一枚，就职于粉粉日记。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="稻草人的博客">
-<meta property="og:url" content="https://Ajackstraw.github.io/index.html">
+  <meta name="description" content="工欲善其事，必先利其器所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）">
+<meta name="keywords" content="github">
+<meta property="og:type" content="article">
+<meta property="og:title" content="快速搭建个人博客（Hexo+github）">
+<meta property="og:url" content="https://Ajackstraw.github.io/2018/11/18/github_blog_install/index.html">
 <meta property="og:site_name" content="稻草人的博客">
-<meta property="og:description" content="Android开发一枚，就职于粉粉日记。">
+<meta property="og:description" content="工欲善其事，必先利其器所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120141337146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232624491-800852353.png">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232625054-2121352408.png">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232625882-354878543.png">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/3936403-6d5f9fd0aa98dc4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120115132293.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112011552094.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120144049867.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120130753697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120130513146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120130622403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120144504937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232627445-1567738449.png">
+<meta property="og:image" content="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232628679-1429215245.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120150624517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120150907530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120151849712.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152233901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152428333.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152521363.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152559345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152636182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152757108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120152810676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2018112015292239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120155350570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120154045793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120154241459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20181120153029912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2018-11-20T08:14:47.626Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="稻草人的博客">
-<meta name="twitter:description" content="Android开发一枚，就职于粉粉日记。">
+<meta name="twitter:title" content="快速搭建个人博客（Hexo+github）">
+<meta name="twitter:description" content="工欲善其事，必先利其器所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20181120141337146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70">
   
     <link rel="alternative" href="/atom.xml" title="稻草人的博客" type="application/atom+xml">
   
@@ -141,16 +173,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-github_blog_install" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
+            <article id="post-github_blog_install" class="article article-type-post " itemscope="" itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/18/github_blog_install/">快速搭建个人博客（Hexo+github）</a>
+    <h1 class="article-title" itemprop="name">
+      快速搭建个人博客（Hexo+github）
     </h1>
   
 
@@ -163,10 +193,85 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h5 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h5><h5 id="所需工具如下：（Node-js）-（-Hexo）（-github）（github-Desktop）-（Typora）"><a href="#所需工具如下：（Node-js）-（-Hexo）（-github）（github-Desktop）-（Typora）" class="headerlink" title="所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）"></a>所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）</h5>
-        
-          <a class="article-more-a" href="/2018/11/18/github_blog_install/#more">more >></a>
-        
+        <h5 id="工欲善其事，必先利其器"><a href="#工欲善其事，必先利其器" class="headerlink" title="工欲善其事，必先利其器"></a>工欲善其事，必先利其器</h5><h5 id="所需工具如下：（Node-js）-（-Hexo）（-github）（github-Desktop）-（Typora）"><a href="#所需工具如下：（Node-js）-（-Hexo）（-github）（github-Desktop）-（Typora）" class="headerlink" title="所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）"></a>所需工具如下：（Node.js） （ Hexo）（ github）（github_Desktop） （Typora）</h5><a id="more"></a>
+<h2 id="一-Node-js-安装教程"><a href="#一-Node-js-安装教程" class="headerlink" title="一. Node.js 安装教程"></a>一. Node.js 安装教程</h2><p><strong>a.</strong> 点击链接查看教程：</p>
+<p><a href="https://ajackstraw.github.io/2018/11/18/nodeJs_install/">https://ajackstraw.github.io/2018/11/18/nodeJs_install/</a></p>
+<h2 id="二-Hexo主题教程"><a href="#二-Hexo主题教程" class="headerlink" title="二. Hexo主题教程"></a>二. Hexo主题教程</h2><p><strong>a.</strong> 打开cmd窗口</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120141337146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>b.</strong> 进入node.js的安装目录</p>
+<p><img src="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232624491-800852353.png" alt=""></p>
+<p><strong>c.</strong> 开始安装hexo，利用 npm 命令即可安装。执行命令：   </p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span> -g hexo</span><br></pre></td></tr></table></figure>
+<p><img src="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232625054-2121352408.png" alt=""></p>
+<p><strong>d.</strong> 稍作等待，即可安装成功。创建博客文件夹并进入，此处便是你的博客目录，此时最好将此目录备份到云盘或者其他地方，以防文件夹丢失后博客就没有了。 执行命令： </p>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> blog &amp;&amp; <span class="built_in">cd</span> blog</span><br></pre></td></tr></table></figure>
+<p><img src="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232625882-354878543.png" alt=""></p>
+<p><strong>e.</strong>  hexo初始化， 执行命令：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo init</span></span><br></pre></td></tr></table></figure>
+<p><strong>f.</strong> 安装依赖包 ，执行命令：</p>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm <span class="keyword">install</span></span><br></pre></td></tr></table></figure>
+<p><strong>g.</strong> 至此，博客搭建成功！不过仅仅只是本地的。生成静态页面, 执行命令：</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>
+<p><strong>h.</strong> 执行下面命令,  然后访问 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到你的博客， 如下图。 </p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<p><img src="https://upload-images.jianshu.io/upload_images/3936403-6d5f9fd0aa98dc4a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp" alt=""></p>
+<p><strong>i.</strong> 打卡github官网， 搜索   hexo-theme   关键词。 </p>
+<p><img src="https://img-blog.csdnimg.cn/20181120115132293.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/2018112011552094.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>j. </strong> 选择你自己喜欢的风格， 这里我选择第二个做演示。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120144049867.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>k.</strong> 主题风格如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120130753697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>l. </strong> 返回主页下载主题代码.</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120130513146.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>m. </strong> 下载完成之后保存到自己的 blog 博客的 theme 文件夹中。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120130622403.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120144504937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>n. </strong> 此处样式配置文件的重要内容以摘要出来， <strong>theme</strong> 字段需要对应你下载的主题代码存放的<strong>文件名称</strong>。</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Hexo Configuration</span></span><br><span class="line"></span><br><span class="line"><span class="attr">title:</span> <span class="string">稻草人的博客</span>      <span class="string">//主页打开网页标题显示的内容</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">开发没有捷径，需要日积月累的积累，以及对技术持久的热情。</span>    <span class="string">//个人博客语录</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">稻草人</span>				<span class="string">//作者名称</span>			</span><br><span class="line"></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">alex</span></span><br><span class="line"></span><br><span class="line"><span class="attr">sitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">sitemap.xml</span></span><br><span class="line">    </span><br><span class="line"><span class="attr">baidusitemap:</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">baidusitemap.xm</span></span><br><span class="line"></span><br><span class="line"><span class="attr">feed:</span></span><br><span class="line"><span class="attr">    type:</span> <span class="string">atom</span></span><br><span class="line"><span class="attr">    path:</span> <span class="string">atom.xml</span></span><br><span class="line"><span class="attr">    limit:</span> <span class="number">100</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jsonContent:</span></span><br><span class="line"><span class="attr">    meta:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    pages:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">    posts:</span></span><br><span class="line"><span class="attr">      title:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      date:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      path:</span> <span class="literal">true</span></span><br><span class="line"><span class="attr">      text:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      raw:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      content:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      slug:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      updated:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      comments:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      link:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      permalink:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      excerpt:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      categories:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">      tags:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<p><strong>o.</strong>  清除缓存</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo clean</span></span><br></pre></td></tr></table></figure>
+<p><strong>p.</strong>  生成新主题的静态页面</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br></pre></td></tr></table></figure>
+<p><strong>q.</strong>  编译生成链接访问， 访问 <a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000</a> 即可看到你的新主题博客</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
+<h2 id="三-github-创建博客仓库"><a href="#三-github-创建博客仓库" class="headerlink" title="三. github 创建博客仓库"></a>三. github 创建博客仓库</h2><p><strong>a. 注册账号</strong></p>
+<p>​    打开官网： <a href="https://github.com/" target="_blank" rel="noopener">https://github.com</a> </p>
+<p><img src="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232627445-1567738449.png" alt=""></p>
+<p><strong>b. 创建一个仓库</strong></p>
+<p><img src="https://images2015.cnblogs.com/blog/603812/201604/603812-20160423232628679-1429215245.png" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120150624517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120150907530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p>至此，个人博客仓库就已经创建完成了！！！！ 嗖嘎。</p>
+<h2 id="四-github-Desktop安装"><a href="#四-github-Desktop安装" class="headerlink" title="四. github_Desktop安装"></a>四. github_Desktop安装</h2><h5 id="a-简介"><a href="#a-简介" class="headerlink" title="a. 简介"></a>a. 简介</h5><p>这是<a href="https://link.jianshu.com/?t=https%3A%2F%2Fdesktop.github.com" target="_blank" rel="noopener">Github</a>的官方git软件，其实现在很多IDE都自带这种版本控制软件，学会了这个就再也不用接触麻烦的git操作了。</p>
+<h5 id="b-下载安装包"><a href="#b-下载安装包" class="headerlink" title="b. 下载安装包"></a>b. 下载安装包</h5><p>官网地址： <a href="https://desktop.github.com/" target="_blank" rel="noopener">https://desktop.github.com/</a>        点击下载按钮，下载完成，<strong>傻瓜式安装</strong>。</p>
+<p> <img src="https://img-blog.csdnimg.cn/20181120151849712.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<h5 id="c-简易使用教程"><a href="#c-简易使用教程" class="headerlink" title="c. 简易使用教程"></a>c. 简易使用教程</h5><p><strong>1. </strong> 打开软件界面</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152233901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>2. </strong> 登录github账号</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152428333.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152521363.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152559345.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>3. </strong> 克隆github新建的仓库</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152636182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152757108.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120152810676.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>4. </strong>查看克隆到本地的文件夹目录， 至此，仓库克隆已经成功了！！！</p>
+<p><img src="https://img-blog.csdnimg.cn/2018112015292239.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<h2 id="五-Typora博客文档编辑器"><a href="#五-Typora博客文档编辑器" class="headerlink" title="五. Typora博客文档编辑器"></a>五. Typora博客文档编辑器</h2><p><strong>a. 下载安装包</strong></p>
+<p>官网地址： <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a>    下载安装包， 傻瓜式一键安装。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120155350570.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>b. 使用教程</strong></p>
+<p>简易使用教程：  <a href="https://www.jianshu.com/p/a6a6a22e9393" target="_blank" rel="noopener">https://www.jianshu.com/p/a6a6a22e9393</a></p>
+<h2 id="六-绝招"><a href="#六-绝招" class="headerlink" title="六.  绝招"></a>六.  绝招</h2><p>—-还记得周星驰电影中的降龙十八掌的绝招吗？ 那就是将前十七掌结合起来，亢龙有悔！！！   搭建个人博客的绝招也是如此，接下来请看我的表演！！！</p>
+<p><strong>a.</strong> 使用Typora写两篇博客，放置在 hexo 的source 目录下。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120154045793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><img src="https://img-blog.csdnimg.cn/20181120154241459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>b.</strong> 重复hexo 的清除，生成静态界面， 预览界面的命令行操作</p>
+<p><strong>c.</strong> 复制blog 目录下的public 的所有内部文件到从 github 克隆下来的Blog项目中。</p>
+<p><img src="https://img-blog.csdnimg.cn/20181120153029912.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xpYW5nY2FpX2NzZG4=,size_16,color_FFFFFF,t_70" alt=""></p>
+<p><strong>d.</strong>   </p>
+
       
 
       
@@ -188,16 +293,24 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/11/18/github_blog_install/">展开全文 >></a>
-        </p>
-      
 
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2018/11/18/nodeJs_install/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Node.js安装教程</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -217,84 +330,14 @@
 
 
 
-
   
-    <article id="post-nodeJs_install" class="article article-type-post  article-index" itemscope="" itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/11/18/nodeJs_install/">Node.js安装教程</a>
-    </h1>
   
 
-        
-        <a href="/2018/11/18/nodeJs_install/" class="archive-article-date">
-  	<time datetime="2018-11-18T02:00:00.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-11-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h5 id="1-node-js简介"><a href="#1-node-js简介" class="headerlink" title="1. node.js简介"></a>1. node.js简介</h5><p>Node.js简介 简单的说 Node.js 就是运行在服务端的 JavaScript。Node.js 是一个基于 <a href="https://developers.google.com/v8/" target="_blank" rel="noopener">Chrome V8</a> 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。Node.js 的包管理器 <a href="https://www.npmjs.com/" target="_blank" rel="noopener">npm</a>，是全球最大的开源库生态系统。 </p>
-        
-          <a class="article-more-a" href="/2018/11/18/nodeJs_install/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">node.js</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/11/18/nodeJs_install/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -318,8 +361,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
